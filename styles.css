@@ -1,0 +1,754 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body {
+    display:flex;
+    height:1200px;
+    background:#FFFFFF;
+    max-width: 100%;
+    }
+
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    section {
+        height:1200px;
+        width:900px;
+        position: relative;
+        margin-left: 0px;
+        float:left;
+        background: #FFFFFF;
+    }
+
+    header {
+    z-index: 2;
+    width:100vw;
+    max-width: 100%;
+    }
+
+    .nav {
+     width:900px;
+      height:150px;
+    padding-top: 0px;
+     padding-bottom: 2rem;
+     display:flex;
+     align-content: center;
+}
+    
+
+.nav h2 {
+font-family: 'Inter', sans-serif;
+color:rgba(12, 173, 58, 1);
+text-align: centre;
+padding-top: 50px;
+margin-left:190px;
+font-size: 27px;
+white-space: nowrap;
+
+}
+
+.nav h6 {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    color:rgba(12, 173, 58, 1);
+    text-align: center;
+    padding-top: 86px;
+    margin-left: 160px;
+    font-size:19px;
+    white-space: nowrap;
+
+}
+
+
+
+section {
+    height:1200px;
+    width:900px;
+    position: relative;
+    margin-left: 0px;
+    float:left;
+    background: #FFFFFF;
+}
+
+.entire {
+    margin-left:30px;
+    width:80%;
+    margin-top:10px;
+}
+
+.form {
+    width:95%
+    
+}
+
+.kachi1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left:35px;
+    margin-top: 18px;
+} 
+
+.form .input_field {
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.form  .input_field label {
+    width:100px;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+}
+
+.form .input_field label .aster {
+    color:red;
+}
+
+.form .kachi1 .input_field .input {
+    border: 1px solid #D1D5DB;
+    width:75%;
+    padding: 9px 20px;
+    background: #FFFFFF;
+    outline: none;
+    border-radius: 6px;
+    margin-top: 8px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.form .kachi2 {
+    display:grid;
+    grid-template-columns: auto auto;
+   
+}
+ 
+.form .kachi2 .input_field .custom_select {
+    width:100%;
+    height:35px;
+    margin-top: 8px;
+}
+
+.form .kachi2 .input_field .custom_select select {
+    border: 1px solid #D1D5DB;
+    padding:8px 13px;
+    border-radius:6px;
+    width:90%;
+    height:100%;
+    appearance:inherit;
+    -webkit-appearance: radio;
+    outline:none;
+}
+
+
+ .form .kachi3 {
+    width:130%;
+ }
+
+ .form .kachi3 .input_field {
+    display: grid;
+   align-items: center;
+}
+
+.form .kachi3 .input_field label {
+    width:180px;
+}
+
+
+.form .kachi4 .input_field .input {
+    width:700px;
+}
+
+.form main .kachi5 {
+    align-items: center;
+}
+
+.form .kachi1 .kachi5 .input_field .choose input[type=file] {
+    width:10px
+}
+
+main h2 {
+    margin-top:38px;
+    margin-left:35px;
+    font-family: 'Inter', sans-serif;
+}
+
+main h5 {
+    font-family: 'Inter', sans-serif;
+    font-size:18px;
+    margin-top: 40px;
+    margin-left: 35px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #111827;
+}
+
+.form .kachi6 .input_field .custom_select {
+    width:100%;
+    height:35px;
+    margin-top: 8px;
+}
+
+.form .kachi6 .input_field .custom_select select {
+    border: 1px solid #D1D5DB;
+    padding:8px 13px;
+    border-radius:6px;
+    outline:none; 
+    width:100%;
+    height:100%;
+    appearance:none ;
+    -webkit-appearance: none;
+}
+
+ 
+main  .kachi6 .input_field label .aster {
+    color:red;
+}
+
+article {
+    margin-top: 50px;
+    margin-left: 35px;
+    
+}
+.tc {
+    width:100%;
+    justify-content: space-between;
+    display:flex;
+}
+
+.check input {
+   border:2px solid black;
+   display: block;
+   position:absolute;
+   width:15px;
+   height:15px;
+   background: #0CAD3A;
+}
+
+.check h4 {
+    margin-left: 30px;
+    margin-top: -4px;
+    font-weight: 700;
+    font-size: 19px;
+    font-family: 'Inter';
+} 
+
+.tx a {
+    color:rgba(12, 173, 58, 1);
+}
+
+.last {
+    background: #F9FAFB;
+    width:703px;
+    height:61px;
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+
+ /* #paymentForm .form-group {
+    margin-left: 30px;
+ }
+
+ .form-group label {
+    font-family:'Inter', sans-serif;
+ } */
+
+ 
+ .precap button {
+    background: rgba(255, 255, 255, 1);
+    padding: 13px 40px;
+    text-align: center;
+    color:rgba(12, 173, 58, 1);
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border:none;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-left: 300px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+} 
+
+.precap button:hover {
+    background-color:rgb(221, 238, 230);
+ }
+
+  .form-submit button {
+    background: rgba(12, 173, 58, 1);
+    padding: 13px 40px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border:none;
+    border-radius: 8px;
+    margin-top: -50px;
+    margin-left: 520px;
+    position: absolute;
+} 
+
+.form-submit button:hover {
+    background-color:rgb(196, 245, 207);
+    color:rgb(51, 22, 22)
+ }
+
+ .sect2 {
+    float:right;
+    width:700px;
+    left:0px;
+    top:0px;
+    position: relative;
+    background: linear-gradient(180deg, #0CAD3A 0%, rgba(217, 217, 217, 0) 100%);
+
+}
+
+.club {
+    margin-left:580px;
+    margin-top: 40px;
+}
+
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    width:50vw;
+    height:550px;
+    margin-top: 50px;
+    margin-left: 100px;
+    
+}
+
+ /* .controls {
+    display:flex;
+    position: absolute;
+    margin-top:53%;
+    margin-left:170px;
+    justify-content: space-between;
+    width:50px;
+    transition: all ease 0.5s;
+}
+
+.control {
+   margin:0 0px;
+   display:flex;
+   height:50px;
+   color:green;
+   padding:5px 10px;
+   background: #F5F5F5;
+   border-radius: 8px;
+   border:1px solid rgba(12, 173, 58, 1);
+   font-size: 30px;
+   cursor:pointer;
+   transition: ease .3s;
+
+}
+
+.controls:hover {
+    opacity:1;
+} */
+
+.slides {
+    position:absolute;
+    top:10px;
+    transform: translateX(-50%);  
+} 
+
+.slide {
+    width:28vw;
+    min-height: 70px;
+    position: absolute;
+    
+} 
+/* Mobile device */
+@media only screen and (max-width:450px) {
+  
+
+    * {
+        /* overflow:hidden; */
+        
+    }
+    .grid {
+        grid-template-columns: auto;
+    }
+
+    .sect2 {
+        display:none;
+    }
+     
+    .nav h2  {
+        font-size: 13px;
+        margin-left: 100px;
+        margin-top: -20px;
+    }
+    .nav h6 {
+        font-size: 13px;
+        margin-left: 63px;
+        margin-top: -39px;
+    }
+
+
+    .entire {
+        width:55%;
+        margin-top:-80px;
+        margin-left:10px;
+    }
+
+    .form .kachi1 {
+        display:flex;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .form .input_field {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .form  .input_field label {
+        font-size: 12px;
+        margin-left: 16px;
+        width:123px;
+    }
+
+    .form  .kachi1 .input_field .input {
+        width:50%;
+        padding:8px 9px;
+        font-size: 12px;
+    }
+
+
+    .form .kachi2 {
+        margin-top: 34px;    
+    }
+
+    .form .kachi2 .input_field .custom_select {
+        width:50%;
+        }
+
+
+    .form .kachi2 .input_field .custom_select select {
+       appearance:inherit ;
+       -webkit-appearance: radio;
+       width:98%;
+       height:100%;
+       border: 1px solid #d5dbd9;
+    }
+    /* .form .kachi2 .input_field .custom_select:before {
+        content:"";
+        border:6px solid;
+        position: absolute;
+        border-color: #0CAD3A transparent transparent transparent;
+        top:316px;
+        left:350px;
+    } */
+
+    .form .kachi3 {
+        width:98%;
+        margin-top: -5px;
+
+     }
+    
+     .form .kachi3 .input_field {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-left: -8px;
+    }
+    
+    .form .kachi3 .input_field label {
+        width:110px;
+        margin-left: 24px;
+        font-size: 12px;
+        margin-right: 18px;
+    }
+
+    .form .kachi3 .input_field .input {
+        width:45%;
+        padding:8px 11px;
+        font-size: 12px;
+    }
+
+    .form .kachi6 .input_field .custom_select {
+        width:50%;
+        /* height:100%; */
+
+        }
+
+    .form .kachi6 .input_field .custom_select select {
+       appearance:inherit ;
+       -webkit-appearance:scrollbarbutton-down;
+       width:98%;
+       height:100%;
+       border: 1px solid #d5dbd9;
+    }
+
+    main h2 {
+        margin-left:58px;
+       font-size: 18px;
+       margin-top: 20px;
+    }
+
+    main h5 {
+        font-size:15px;
+         margin-top: 5px;
+         margin-left: 58px;
+         }
+
+         article .tc{
+            margin-left: 13px;
+            margin-top: 30px;
+         }
+
+         .tc .check input {
+            margin-left: 5px;
+            margin-top: 2px;
+         }
+
+
+        .tc .check h4 {
+            margin-top: 1px;
+            font-size: 14px;
+            margin-left: 30px;
+            white-space: nowrap;
+            }  
+             .last {
+                background: #2c0909;
+                width:400px;
+                height:39px;
+                margin-top: 20px;
+                
+            }
+
+           .last .precap button {
+                padding: 7px 10px;
+                font-size: 14px;
+                margin-top: -5px;
+                margin-left: 30px; 
+                background: red;
+             }
+
+               .last .form-submit button {
+                    padding: 8px 14px;
+                    font-size: 15px;
+                    margin-top: -33px;
+                    margin-left: 240px;
+                } 
+
+
+     .form .kachi4 {
+        margin-top: -1px;    
+    }
+
+    .form .kachi5 {
+        margin-top: -4px;
+    }
+
+    .form .kachi6 {
+        margin-top: 50px;
+    }
+ } 
+
+ /* iPads and Tablets */
+@media only screen and (max-width:768px) {
+    .grid {
+        grid-template-columns: auto auto;
+    }
+    section {
+        width:438px;
+        left:0px;
+    }
+
+    .sect2 {
+    width:360px;
+    }
+     
+    .nav h2  {
+        font-size: 12px;
+        margin-left: 120px;
+        margin-top: -20px;
+    }
+    .nav h6 {
+        font-size: 12px;
+        margin-left: 63px;
+        margin-top: -39px;
+    }
+    .entire {
+        width:70%;
+        margin-top:-80px;
+        margin-left:0px;
+    }
+
+    .form .kachi1 {
+        display:flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+     .form .input_field {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .form  .input_field label {
+        font-size: 10px;
+        margin-left: 20px;
+        width:120px;
+    }
+
+    .form  .kachi1 .input_field .input {
+        width:50%;
+        padding:8px 18px;
+        font-size: 13px;
+    } 
+
+    .form .kachi2 {
+        margin-top: -4px;    
+    }
+
+    .form .kachi2 .input_field .custom_select {
+        width:50%;
+        }
+
+
+    .form .kachi2 .input_field .custom_select select {
+       appearance:inherit ;
+       -webkit-appearance: radio;
+       width:98%;
+       height:100%;
+       border: 1px solid #d5dbd9;
+    }
+
+    .form .kachi3 {
+        width:97%;
+        margin-top: 19px;
+     }
+    
+     .form .kachi3 .input_field {
+        display: flex;
+        align-items: center;
+        margin-top: -9px;
+        margin-bottom: 10px;
+        margin-left: 12px;
+    }
+    
+    .form .kachi3 .input_field label {
+        width:110px;
+        margin-left: 17px;
+        font-size: 10px;
+    }
+
+    .form .kachi3 .input_field .input {
+        font-size: 13px;
+        padding:8px 18px;
+    }
+
+    .form .kachi6 .input_field .custom_select {
+        width:50%;
+        height:100%;
+
+        }
+
+    .form .kachi6 .input_field .custom_select select {
+       appearance:inherit ;
+       -webkit-appearance:scrollbarbutton-down;
+       width:98%;
+       height:100%;
+       border: 1px solid #d5dbd9;
+    }
+
+    main h2 {
+        margin-left:58px;
+       font-size: 18px;
+       margin-top: 10px;
+    }
+
+    main h5 {
+        font-size:15px;
+         margin-top: 5px;
+         margin-left: 58px;
+         }
+
+         article {
+            margin-left: 29px;
+            margin-top: 12px;
+         }
+
+
+         .check h4 {
+            margin-top: -2px;
+            font-size: 12px;
+            margin-left: 19px;
+            }  
+
+
+            .last {
+                background: #FFFFFF;
+                width:350px;
+                height:39px;
+                margin-top: 25px;
+                
+            }
+
+            .precap button {
+                padding: 4px 9px;
+                font-size: 13px;
+                margin-top: 3px;
+                margin-left: 30px;  }
+
+                .form-submit button {
+                    padding: 6px 11px;
+                    font-size: 13px;
+                    margin-top: -30px;
+                    margin-left: 230px;
+                } 
+
+                .form .kachi1 {
+                    margin-top: 5px;
+                }
+                .form .kachi4 {
+                    margin-top: -2px;    
+                }
+            
+                .form .kachi5 {
+                    margin-top: -4px;
+                }
+                .form .kachi6 {
+                    margin-top: -4px;
+                }
+
+                .club {
+                    margin-left:240px;
+                    margin-top: 20px;
+                }
+
+                .club img {
+                    width:9vw;
+                }
+
+                .carousel {
+                    
+                    width:50vw;
+                    height:550px;
+                    margin-top: 50px;
+                    margin-left: 40px;
+                    
+                }   
+
+                .control , .controls {
+                    display:none;
+                }
+ 
+                .slide {
+                    width:34vw; 
+                }
+} 
